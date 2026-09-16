@@ -1,0 +1,150 @@
+/* ==========================================================================
+   RESPONSIVE — Abdur Rob
+   Breakpoints: 1280 / 1024 / 768 / 414 / 390 / 375 / 360 / 320
+   ========================================================================== */
+
+/* ---------- 1280px and below ---------- */
+@media (max-width:1280px){
+  :root{ --container:1080px; }
+  .about-media img{ height:560px; }
+}
+
+/* ---------- 1024px — tablet landscape ---------- */
+@media (max-width:1024px){
+  .container{ padding:0 26px; }
+  .nav-links{ display:none; }
+  .hamburger{ display:flex; }
+
+  .services-grid{ grid-template-columns:repeat(2,1fr); }
+  .projects-grid{ grid-template-columns:repeat(2,1fr); }
+  .process-track{ grid-template-columns:repeat(3,1fr); row-gap:48px; }
+  .process-track::before, .process-line-fill{ display:none; }
+  .why-grid{ grid-template-columns:repeat(1,1fr); }
+  .stats-grid{ grid-template-columns:repeat(2,1fr); row-gap:36px; }
+  .stat-item:nth-child(2){ border-right:none; }
+  .stat-item:nth-child(1), .stat-item:nth-child(2){ border-bottom:1px solid var(--border-soft); padding-bottom:30px; }
+
+  .about-grid{ grid-template-columns:1fr; gap:60px; }
+  .about-media img{ height:480px; }
+  .about-badge{ left:16px; bottom:-24px; }
+
+  .contact-grid{ grid-template-columns:1fr; }
+  .location-card{ min-height:340px; }
+
+  .cert-box{ grid-template-columns:1fr; padding:36px; }
+
+  .form-shell{ padding:40px; }
+
+  .footer-grid{ grid-template-columns:1fr 1fr; gap:40px; }
+}
+
+/* ---------- 768px — tablet portrait ---------- */
+@media (max-width:768px){
+  :root{ --nav-h:70px; }
+  .container{ padding:0 20px; }
+
+  h1{ line-height:1.15; }
+  .section-head{ margin-bottom:40px; }
+
+  .hero-content{ padding-top:calc(var(--nav-h) + 30px); }
+  .hero-meta{ gap:28px; margin-top:44px; }
+  .hero-actions{ flex-direction:column; align-items:stretch; }
+  .hero-actions .btn{ width:100%; }
+
+  .services-grid{ grid-template-columns:1fr; }
+  .projects-grid{ grid-template-columns:1fr; }
+  .process-track{ grid-template-columns:repeat(2,1fr); }
+
+  .stats-grid{ grid-template-columns:repeat(2,1fr); }
+
+  .gallery-grid{ columns:2 160px; }
+
+  .cert-box{ padding:28px; }
+  .cert-list li{ flex-direction:column; gap:4px; }
+
+  .form-grid{ grid-template-columns:1fr; }
+  .form-shell{ padding:28px; }
+
+  .modal-body{ padding:28px 24px 34px; }
+  .modal-meta{ grid-template-columns:repeat(2,1fr); }
+  .modal-gallery{ height:280px; }
+
+  .testi-card{ padding:36px 26px; }
+  .testi-text{ font-size:1.05rem; }
+
+  .footer-grid{ grid-template-columns:1fr 1fr; gap:34px; }
+  .footer-bottom{ flex-direction:column; text-align:center; }
+
+  .quote-cta{ padding:100px 0; }
+
+  .mobile-bar{ display:grid; }
+  body{ padding-bottom:70px; }
+  .back-to-top{ bottom:88px; }
+  .wa-float{ display:none; }
+}
+
+/* ---------- 414 / 390 / 375 / 360 phones ---------- */
+@media (max-width:480px){
+  .container{ padding:0 18px; }
+  .eyebrow{ font-size:.66rem; }
+  .hero h1{ font-size:clamp(2rem,9vw,2.6rem); max-width:14ch; }
+  .hero-desc{ font-size:1rem; }
+  .hero-meta{ gap:24px 30px; }
+  .hero-meta strong{ font-size:1.4rem; }
+
+  .section-pad{ padding:64px 0; }
+  .about{ padding:70px 0; }
+
+  .about-media img{ height:360px; }
+  .about-badge{ padding:16px 18px; }
+  .about-badge strong{ font-size:1.5rem; }
+  .about-points{ grid-template-columns:1fr; }
+
+  .stats-grid{ grid-template-columns:1fr 1fr; gap:28px 10px; }
+  .stat-item{ border-right:none !important; border-bottom:1px solid var(--border-soft); padding-bottom:24px; }
+
+  .filter-bar{ gap:8px; }
+  .filter-btn{ padding:8px 16px; font-size:.74rem; }
+
+  .why-us{ padding:90px 0; }
+  .why-item{ padding:30px 22px; }
+
+  .process{ padding:70px 0; }
+  .process-track{ grid-template-columns:1fr 1fr; gap:34px 20px; }
+
+  .certificate-section{ padding:60px 0; }
+
+  .quote-content h2{ font-size:1.9rem; }
+  .quote-actions{ flex-direction:column; }
+  .quote-actions .btn{ width:100%; }
+
+  .form-shell{ padding:22px 18px; border-radius:var(--r-md); }
+  .form-actions{ flex-direction:column; }
+  .form-actions .btn{ width:100%; }
+
+  .contact-actions{ flex-direction:column; }
+  .contact-actions .btn{ width:100%; }
+
+  .footer-grid{ grid-template-columns:1fr; gap:34px; padding-bottom:34px; }
+  .footer{ padding:56px 0 22px; }
+
+  .modal-nav{ width:38px; height:38px; }
+  .modal-nav.prev{ left:10px; } .modal-nav.next{ right:10px; }
+  .ba-handle-btn{ width:42px; height:42px; }
+}
+
+/* ---------- 360px and smaller ---------- */
+@media (max-width:360px){
+  .hero h1{ font-size:1.8rem; }
+  .hero-label{ font-size:.68rem; }
+  .brand-name{ font-size:1.1rem; }
+  .gallery-grid{ columns:2 140px; }
+  .testi-card{ padding:28px 18px; }
+  .testi-text{ font-size:.98rem; }
+}
+
+/* ---------- Small height devices (landscape phones) ---------- */
+@media (max-height:480px) and (orientation:landscape){
+  .hero{ min-height:auto; padding:120px 0 60px; }
+  .mobile-menu{ overflow-y:auto; padding:40px 0; }
+}
