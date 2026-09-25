@@ -41,7 +41,7 @@
       location: "Jazan City",
       duration: { en:"8 weeks", ar:"8 أسابيع", bn:"৮ সপ্তাহ" },
       area: "480 m²",
-      services: { en:["Interior","HVAC","Electrical","Fire Alarm"], ar:["ديكور داخلي","تكييف","كهرباء","إنذار حريق"], bn:["ইন্টেরিয়র","এইচভিএসি","ইলেকট্রিক্যাল","ফায়ার অ্যালার্ম"] },
+      services: { en:["Interior","Electrical","Fire Alarm"], ar:["ديكور داخلي","تكييف","كهرباء","إنذار حريق"], bn:["ইন্টেরিয়র","এইচভিএসি","ইলেকট্রিক্যাল","ফায়ার অ্যালার্ম"] },
       description: {
         en:"Kitchen and dining area fit-out with new ventilation, electrical distribution and a fire alarm system, finished with a warm, modern interior identity.",
         ar:"تجهيز المطبخ ومنطقة تناول الطعام بتهوية جديدة وتوزيع كهربائي ونظام إنذار حريق، مع تشطيب بهوية داخلية عصرية ودافئة.",
@@ -57,11 +57,11 @@
       location: "Abu Arish, Jazan",
       duration: { en:"5 weeks", ar:"5 أسابيع", bn:"৫ সপ্তাহ" },
       area: "600 m²",
-      services: { en:["Renovation","Electrical","CCTV","UPS / IPS"], ar:["ترميم","كهرباء","كاميرات مراقبة","UPS / IPS"], bn:["রেনোভেশন","ইলেকট্রিক্যাল","সিসিটিভি","ইউপিএস/আইপিএস"] },
+      services: { en:["Renovation","Electrical","UPS / IPS"], ar:["ترميم","كهرباء","كاميرات مراقبة","UPS / IPS"], bn:["রেনোভেশন","ইলেকট্রিক্যাল","সিসিটিভি","ইউপিএস/আইপিএস"] },
       description: {
-        en:"Office-wide renovation including partitioning, DB upgrades, structured CCTV coverage and a backup power (UPS) setup for uninterrupted operations.",
+        en:"Office-wide renovation including partitioning, DB upgrades, structured controller coverage and a backup power (UPS) setup for uninterrupted operations.",
         ar:"تجديد شامل للمكتب يشمل التقسيمات، ترقية لوحات التوزيع، تغطية منظمة بكاميرات المراقبة، ونظام طاقة احتياطي (UPS) لضمان استمرارية العمل.",
-        bn:"পার্টিশনিং, ডিবি আপগ্রেড, সংগঠিত সিসিটিভি কভারেজ এবং নিরবচ্ছিন্ন কার্যক্রমের জন্য ব্যাকআপ পাওয়ার (ইউপিএস) সেটআপসহ সম্পূর্ণ অফিস রেনোভেশন।"
+        bn:"পার্টিশনিং, ডিবি আপগ্রেড, সংগঠিত কভারেজ এবং নিরবচ্ছিন্ন কার্যক্রমের জন্য ব্যাকআপ পাওয়ার (ইউপিএস) সেটআপসহ সম্পূর্ণ অফিস রেনোভেশন।"
       },
       images: ["assets/images/project-03.jpg", "assets/images/project-03-2.jpg", "assets/images/project-03-3.jpg"],
     },
@@ -73,9 +73,9 @@
       location: "Al Madaya, Jazan",
       duration: { en:"10 weeks", ar:"10 أسابيع", bn:"১০ সপ্তাহ" },
       area: "540 m²",
-      services: { en:["Renovation","Plumbing","Mechanical","Interior"], ar:["ترميم","سباكة","ميكانيكا","ديكور داخلي"], bn:["রেনোভেশন","প্লাম্বিং","মেকানিক্যাল","ইন্টেরিয়র"] },
+      services: { en:["Renovation","Plumbing","Interior"], ar:["ترميم","سباكة","ديكور داخلي"], bn:["রেনোভেশন","প্লাম্বিং","ইন্টেরিয়র"] },
       description: {
-        en:"Ground-up villa renovation covering plumbing replacement, HVAC servicing, structural finishing and a complete interior redesign across all rooms.",
+        en:"Ground-up villa renovation covering plumbing replacement, structural finishing and a complete interior redesign across all rooms.",
         ar:"ترميم شامل لفيلا من الأساس يشمل استبدال السباكة، صيانة التكييف، التشطيبات الإنشائية وإعادة تصميم داخلي كامل لجميع الغرف.",
         bn:"ভিলার সম্পূর্ণ রেনোভেশন, যার মধ্যে রয়েছে প্লাম্বিং প্রতিস্থাপন, এইচভিএসি সার্ভিসিং, স্ট্রাকচারাল ফিনিশিং এবং সব রুমে সম্পূর্ণ ইন্টেরিয়র রিডিজাইন।"
       },
@@ -105,7 +105,7 @@
       location: "Jazan City",
       duration: { en:"4 weeks", ar:"4 أسابيع", bn:"৪ সপ্তাহ" },
       area: "260 m²",
-      services: { en:["Mechanical","Electrical","Plumbing","HVAC"], ar:["ميكانيكا","كهرباء","سباكة","تكييف"], bn:["মেকানিক্যাল","ইলেকট্রিক্যাল","প্লাম্বিং","এইচভিএসি"] },
+      services: { en:["Electrical","Plumbing"], ar:["كهرباء","سباكة"], bn:["ইলেকট্রিক্যাল","প্লাম্বিং"] },
       description: {
         en:"Full MEP upgrade across a block of hotel suites — new AC units, refreshed plumbing lines and an updated electrical circuit for guest comfort and safety.",
         ar:"ترقية كاملة للأعمال الكهروميكانيكية في مجموعة من الأجنحة الفندقية — وحدات تكييف جديدة، خطوط سباكة محدثة ودائرة كهربائية محدثة لراحة وسلامة النزلاء.",
