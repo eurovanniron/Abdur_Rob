@@ -26,7 +26,7 @@
       role: "Office Manager, Abu Arish",
       project: "Office Renovation",
       rating: 5,
-      text: "The CCTV, UPS and electrical upgrade for our office was handled with real attention to detail. It's clear this comes from decades of hands-on experience.",
+      text: "The UPS and electrical upgrade for our office was handled with real attention to detail. It's clear this comes from decades of hands-on experience.",
     },
     {
       name: "Ibrahim Zaila",
