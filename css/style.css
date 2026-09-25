@@ -8,7 +8,7 @@
 /* ---------- Design Tokens ---------- */
 :root{
   /* Backgrounds */
-  --bg-primary:#0a0a09;
+  --bg-primary:#261801;
   --bg-secondary:#141311;
   --bg-tertiary:#1b1a17;
   --bg-elevated:#1f1e1a;
@@ -609,8 +609,8 @@ h1,h2,h3,h4{ font-family:var(--font-display); font-weight:600; line-height:1.12;
 .process-step h4{ font-size:1.02rem; margin-bottom:8px; color:var(--text-primary); font-family:var(--font-body); font-weight:600; }
 .process-step p{ font-size:.86rem; color:var(--text-secondary); }
 
-/* ---------- Why Choose Us ---------- */
-.why-us{
+/* ---------- Why Choose Me ---------- */
+.why-me{
   position:relative;
   padding:150px 0;
   overflow:hidden;
